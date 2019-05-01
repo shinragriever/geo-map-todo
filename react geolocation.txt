@@ -1,0 +1,21 @@
+//create app
+npx create-react-app new-app
+//install react-google-maps
+yarn add react-google-maps
+//install axios
+yarn add axios
+
+componentWillMount(){
+    navigator.geolocation.watchPosition(this.showPosition);
+  };
+  showPosition(position) {
+    this.setState({
+      currentUserLocation:{
+      lat: position.coords.latitude,
+      lng: position.coords.longitude}
+    });
+
+
+//optional
+//als je afstond nodig hebt tussen 2 coördinaten: install geolib
+yarn add geolib

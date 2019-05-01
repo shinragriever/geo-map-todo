@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "first todo",
+    "todoLocation": { "lat": 37.386052, "lng": -122.083851 }
+  },
+  {
+    "id": 2,
+    "title": "second todo",
+    "todoLocation": { "lat": 37.386052, "lng": -122.083851 }
+  },
+  {
+    "id": 3,
+    "title": "third todo",
+    "todoLocation": { "lat": 37.386052, "lng": -122.083851 }
+  }
+]
